@@ -10,6 +10,6 @@ My challenge is to build out this bento grid and get it looking as close to the 
 
 I will be using just HTML & CSS for now.
 
-My users should be able to: 
+My users should be able to: resize the screen size in mobile and desktop orientation.
 
 - View the optimal layout for the interface depending on their device's screen size
