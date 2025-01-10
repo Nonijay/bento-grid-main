@@ -1,9 +1,4 @@
-main{
-    display: flex;
-    justify-content: center;
-    max-width: 1440px;
-    padding: 20px 0;
-}
+
 
 .grid-container{
     
@@ -15,11 +10,17 @@ main{
 
 
 .card{
+    font-family: 'DM Sans';
     border-radius: 8px;
     border: solid 1px var(--Black);
     padding: 20px 10px;
     margin: 10px auto;
-    font-family: 'DM Sans';
+    
 }
+
+.card-1{
+    grid-column: 1 / 8;
+}
+
 
 
