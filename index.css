@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    padding: 20px 0;
+}
+
+.grid-container{
+    
+    background-color: var(--White);
+    display: grid;
+    grid-template:  repeat(3, 2fr)/repeat(3, auto);
+    grid-gap: 2px;
+}
+
+
+.card{
+    border-radius: 8px;
+    border: solid 1px var(--Black);
+    padding: 20px 10px;
+    margin: 10px auto;
+    font-family: 'DM Sans';
+}
+
+
